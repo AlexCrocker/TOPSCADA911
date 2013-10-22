@@ -1,0 +1,41 @@
+User Class
+User Name
+Phone
+Email
+SMS Message
+On Call Group
+On Call Schedule
+Code
+Sound?
+
+Group Class
+Group Name
+Users
+On Call List Number
+Digital Alarms
+//Delay Before Calling First User// Add delay to alarm not here
+Delay In Between Users
+Sound?
+
+Digital Alarm Class
+Alarm Name
+Tag-name/Item Name
+Description
+Sounds...
+State0
+State1
+Group
+Delay Before Call
+
+Sound Class
+SoundPath ArrayList //Play in index order?
+
+Schedule Class
+Name
+StartTime
+EndTime
+
+Call out schedule based on group or based on user?
+XML users and CSV alarms?
+CSV everything?
+How do several Call-out groups work?
