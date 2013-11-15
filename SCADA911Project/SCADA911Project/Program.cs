@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; 
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,7 +16,12 @@ namespace SCADA911Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainMenuForm());
-        }
+            //Uncomment line below for main windows form to be present 
+            //Application.Run(new MainMenuForm());
+            Application.Run(new Schedule());
+            Schedule ScheduleObj = new Schedule();  
+
+            
+        }   
     }
 }

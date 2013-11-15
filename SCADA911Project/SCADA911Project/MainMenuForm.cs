@@ -16,5 +16,10 @@ namespace SCADA911Project
         {
             InitializeComponent();
         }
+
+        private void MainMenuForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
